@@ -1,6 +1,5 @@
 // console.log(2 + "2");                            // Output: 22
 // console.log(2 - "2");                            // Output: 0
-// console.log("3" - 2);                            // Output: 1
 // console.log(+"2");                               // Output: 2
 // console.log("2" * 3);                            // Output: 6
 // console.log(3 + 4 + "5");                        // Output: 75
@@ -147,11 +146,68 @@
 // console.log(NaN === NaN);                        // Output: false
 // console.log(true + "1");                         // Output: true1
 // console.log(1 + "1");                            // Output: 11
-// console.log([2] == "2");                         // Output: true
 // console.log([] == true);                         // Output: false
 // console.log("2" - 1);                            // Output: 1
-// console.log([5] == 5);
-// console.log([2] == "2");
-// console.log(1 == [1]);
-// console.log([2] == 2);
-// console.log([3] == "3");
+// console.log(5 > 3);                              // Output: true
+// console.log(5 < 3);                              // Output: false
+// console.log(10 > 10);                            // Output: false
+// console.log(10 >= 10);                           // Output: true
+// console.log(10 < 5);                             // Output: false
+// console.log("apple" < "banana");                 // Output: true
+// console.log("orange" > "malta");                 // Output: true
+// console.log(5 === 5);                            // Output: true
+// console.log(5 !== 3);                            // Output: true
+// console.log(3 + 4 > 5);                          // Output: true
+// console.log("2" < 3);                            // Output: true
+// console.log(5 || 10);                            // Output: 5
+// console.log(0 || 10);                            // Output: 10
+// console.log(5 && 10);                            // Output: 10
+// console.log(0 && 10);                            // Output: 0           
+// console.log(0 && 0);                             // Output: 0
+// console.log(1 && 0);                             // Output: 0
+// console.log(3 > 2 && 5 < 10);                    // Output: true
+// console.log(2 > 3 && 5 < 10);                    // Output: false
+// console.log(10 > 5 || 3 < 1);                    // Output: true
+// console.log(3 > 5 || 2 < 7);                     // Output: true
+// console.log(0 || "false");                       // Output: "false"
+// console.log("false" || 1);                       // Output: "false"
+// console.log("" || "hello");                      // Output: "hello"
+// console.log(null || "world");                    // Output: "world"
+// console.log("world" || null);                    // Output: "world"
+// console.log(true || false);                      // Output: true
+// console.log(true && false);                      // Output: false
+// console.log(true && true);                       // Output: true
+// console.log(false && false);                     // Output: false
+// console.log(5 > 3 && "apple" > "banana");        // Output: false
+// console.log(5 > 3 && "apple" < "banana");        // Output: true
+// console.log(0 === 0);                            // Output: true
+// console.log(5 === "5");                          // Output: false
+// console.log("5" == 5);                           // Output: true
+// console.log(10 > 5 && 5 === 5);                  // Output: true
+// console.log("app" > "ban" || "gr" < "ora");      // Output: true
+// console.log(10 > 5 || 5 < 3);                    // Output: true
+// console.log(5 < 3 || "hello" == "world");        // Output: false 
+// console.log(3 > 2 || 2 < 1);                     // Output: true
+// console.log("hello" > "apple" && 2 < 3);         // Output: true
+// console.log(5 > 3 && 10 < 8);                    // Output: false
+// console.log(5 === "5" || 3 < 2);                 // Output: false
+// console.log(3 > 2 || 0 === 0);                   // Output: true
+// console.log("foo" == "foo" && "bar" != "baz");   // Output: true
+// console.log(false || true);                      // Output: true
+// console.log(false && true);                      // Output: false
+// console.log(true || false);                      // Output: true
+// console.log(10 !== 5 || 3 < 2);                  // Output: true
+// console.log(1 === 1 && "A" < "B");               // Output: true
+// console.log(5 > 10 || 10 < 5);                   // Output: false
+// console.log(0 > 1 || "test" == "test");           
+// console.log((1 && "true") || false);
+// console.log(null || undefined);
+// console.log(undefined || null);
+// console.log("apple" === "apple" && "banana" < "cherry");
+// console.log(0 && "false");
+// console.log("false" == "false" || 1 > 0);
+// console.log(true === true && false === false);
+// console.log(4 < 5 && 6 > 7);
+// console.log("" || "empty");
+// console.log("hello" == "hello" || "world" == "world");
+// console.log(3 > 1 && "apple" === "apple");
