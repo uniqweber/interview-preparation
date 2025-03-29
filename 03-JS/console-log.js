@@ -98,63 +98,58 @@
 // console.log(5 * "5");                            // Output: 25
 // console.log([] == false);                        // Output: true
 // console.log("4" - 1);                            // Output: 3
-// console.log([1] == "1");
-// console.log([1, 2] == "1,2");
-// console.log([5, 6] == "5,6");
-// console.log(10 === "10");
-// console.log("10" === 10);
-// console.log("10" == 10);
-// console.log("2" * "3");
-// console.log(5 == "5");
-// console.log(true + 1);
-// console.log([] == true);
-// console.log("3" - "2");
-// console.log(10 / 5);
-// console.log([] == 0);
-// console.log([1] + 1);
-// console.log("" == []);
-// console.log([2, 3] == "2,3");
-// console.log([1] == [1]);
-// console.log("false" == false);
-// console.log(false == 0);
-// console.log(0 == false);
-// console.log(1 === "1");
-// console.log([] == ![]);
-// console.log([] == []);
-// console.log([1] == [1]);
-// console.log(null + 1);
-// console.log(undefined + 1);
-// console.log("3" == 3);
-// console.log("3" === 3);
-// console.log("0" == false);
-// console.log("0" === false);
-// console.log("" == false);
-// console.log("" === false);
-// console.log(0 == false);
-// console.log(0 === false);
-// console.log(1 == "1");
-// console.log(1 === "1");
-// console.log([1] == true);
-// console.log([1] == false);
-// console.log([2] == "2");
-// console.log({} == false);
-// console.log({} == true);
-// console.log([] + []);
-// console.log([1] + "test");
-// console.log([1] + [2]);
-// console.log("" + []);
-// console.log(true + []);
-// console.log({} + []);
-// console.log([] + {});
-// console.log([null] == null);
-// console.log([undefined] == undefined);
-// console.log(NaN == NaN);
-// console.log(NaN === NaN);
-// console.log(true + "1");
-// console.log(1 + "1");
-// console.log([2] == "2");
-// console.log([] == true);
-// console.log("2" - 1);
+// console.log([1] == "1");                         // Output: true
+// console.log([1, 2] == "1,2");                    // Output: true
+// console.log([5, 6] == "5,6");                    // Output: true
+// console.log(10 === "10");                        // Output: false
+// console.log("10" === 10);                        // Output: false
+// console.log("10" == 10);                         // Output: true
+// console.log("2" * "3");                          // Output: 6
+// console.log(5 == "5");                           // Output: true
+// console.log(true + 1);                           // Output: 2
+// console.log([] == true);                         // Output: false
+// console.log("3" - "2");                          // Output: 1
+// console.log(10 / 5);                             // Output: 2
+// console.log([] == 0);                            // Output: true
+// console.log([1] + 1);                            // Output: 11
+// console.log("" == []);                           // Output: true
+// console.log([2, 3] == "2,3");                    // Output: true
+// console.log([1] == [1]);                         // Output: false
+// console.log("false" == false);                   // Output: false
+// console.log(false == 0);                         // Output: true
+// console.log(1 === "1");                          // Output: false
+// console.log([] == ![]);                          // Output: true
+// console.log([] == []);                           // Output: false
+// console.log([1] == [1]);                         // Output: false
+// console.log(null + 1);                           // Output: 1
+// console.log(undefined + 1);                      // Output: NaN
+// console.log("3" == 3);                           // Output: true
+// console.log("3" === 3);                          // Output: false
+// console.log("0" == false);                       // Output: true
+// console.log("0" === false);                      // Output: false
+// console.log("" == false);                        // Output: true
+// console.log("" === false);                       // Output: false
+// console.log(0 == false);                         // Output: true
+// console.log(0 === false);                        // Output: false
+// console.log(1 == "1");                           // Output: true
+// console.log(1 === "1");                          // Output: false
+// console.log([1] == true);                        // Output: true
+// console.log([1] == false);                       // Output: false
+// console.log({} == false);                        // Output: false
+// console.log({} == true);                         // Output: false
+// console.log("" + []);                            // Output: ""
+// console.log(true + []);                          // Output: true
+// console.log({} + []);                            // Output: [object object]
+// console.log([] + {});                            // Output: [object object]
+// console.log([null] == null);                     // Output: false
+// console.log([undefined] == undefined);           // Output: false
+// console.log(NaN == NaN);                         // Output: false
+// console.log(NaN === NaN);                        // Output: false
+// console.log(true + "1");                         // Output: true1
+// console.log(1 + "1");                            // Output: 11
+// console.log([2] == "2");                         // Output: true
+// console.log([] == true);                         // Output: false
+// console.log("2" - 1);                            // Output: 1
 // console.log([5] == 5);
 // console.log([2] == "2");
 // console.log(1 == [1]);
