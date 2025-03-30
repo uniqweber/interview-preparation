@@ -55,70 +55,70 @@ console.log(c); // Output: 3 */
 // let sum = arr.reduce((acc, val) => acc + val, 0);
 // console.log(sum); // Output: 6
 
-// // 12. What will the result of this code be?
+/* ----------------------------------- 11 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let doubled = arr.map((x) => x * 2);
 //     let total = doubled.reduce((acc, val) => acc + val, 0);
 //     console.log(total);
 
-// // 13. What will be the result of this code?
+/* ----------------------------------- 12 ----------------------------------- */
 //     function a() {
 //         return { b: 1 };
 //     }
 //     console.log(a());
 
-// // 14. What will be printed here?
+/* ----------------------------------- 13 ----------------------------------- */
 //     let obj = { x: 1, y: 2 };
 //     const { x, z = 3 } = obj;
 //     console.log(z);
 
-// // 15. What will the output of this code be?
+/* ----------------------------------- 14 ----------------------------------- */
 //     let nums = [1, 2, 3, 4, 5];
 //     let doubled = nums.map(num => num * 2);
 //     console.log(doubled);
 
-// // 16. What will this code output?
+/* ------------------------------------ 15 ----------------------------------- */
 //     let result = (function() {
 //         return typeof arguments;
 //     })();
 //     console.log(result);
 
-// // 17. What will this output?
+/* ----------------------------------- 16 ----------------------------------- */
 //     let obj = { a: 1 };
 //     Object.freeze(obj);
 //     obj.a = 3;
 //     console.log(obj.a);
 
-// // 18. What will be the output of the following code?
+/* ----------------------------------- 17 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let doubled = arr.map(num => num * 2);
 //     let total = doubled.reduce((acc, num) => acc + num, 0);
 //     console.log(total);
 
-// // 19. What will this code output?
+/* ----------------------------------- 18 ----------------------------------- */
 //     let arr = ['a', 'b', 'c'];
 //     arr.splice(1, 1, 'x', 'y');
 //     console.log(arr);
 
-// // 20. What will be printed?
+/* ----------------------------------- 19 ----------------------------------- */
 //     let obj1 = { a: 1 };
 //     let obj2 = Object.assign({}, obj1);
 //     obj2.a = 2;
 //     console.log(obj1.a, obj2.a);
 
-// // 21. What is the output of the following code?
+/* ----------------------------------- 20 ----------------------------------- */
 //     const a = [1, 2, 3];
 //     const b = [...a];
 //     b.push(4);
 //     console.log(a, b);
 
-// // 22. What will be printed here?
+/* ----------------------------------- 21 ----------------------------------- */
 //     let foo = { a: 1, b: 2 };
 //     let bar = foo;
 //     bar.a = 3;
 //     console.log(foo.a);
 
-// // 23. What will the output of this code be?
+/* ----------------------------------- 22 ----------------------------------- */
 //     let obj = { a: 1 };
 //     Object.defineProperty(obj, "b", {
 //         value: 2,
@@ -127,144 +127,144 @@ console.log(c); // Output: 3 */
 //     obj.b = 3;
 //     console.log(obj.b);
 
-// // 24. What will this code output?
+/* ----------------------------------- 23 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let [x, y, z] = arr;
 //     console.log(x, y, z);
 
-// // 25. What will be the output of this code?
+/* ----------------------------------- 24 ----------------------------------- */
 //     let obj = { a: 1 };
 //     obj.a = 2;
 //     console.log(obj.a);
 
-// // 26. What will this output?
+/* ----------------------------------- 25 ----------------------------------- */
 //     const arr = ['apple', 'banana', 'cherry'];
 //     console.log(arr.indexOf('banana'));
 
-// // 27. What will be the output here?
+/* ----------------------------------- 26 ----------------------------------- */
 //     let obj = { a: 1 };
 //     let clone = Object.assign({}, obj);
 //     clone.a = 2;
 //     console.log(obj.a, clone.a);
 
-// // 28. What will be printed here?
+/* ----------------------------------- 27 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let total = arr.reduce((acc, val) => acc + val, 0);
 //     console.log(total);
 
-// // 29. What will the output of this code be?
+/* ----------------------------------- 28 ----------------------------------- */
 //     let obj = { a: 1 };
 //     obj.a = 2;
 //     console.log(obj.a);
 
-// // 30. What will be the output of this code?
+/* ----------------------------------- 29 ----------------------------------- */
 //     let x = [1, 2, 3];
 //     let y = x.slice();
 //     y[0] = 99;
 //     console.log(x[0]);
 
-// // 31. What will this output?
+/* ----------------------------------- 30 ----------------------------------- */
 //     let a = 10;
 //     let b = "10";
 //     console.log(a == b);
 //     console.log(a === b);
 
-// // 32. What is the output of the following code?
+/* ----------------------------------- 31 ----------------------------------- */
 //     let a = [1, 2, 3];
 //     let b = a;
 //     b.push(4);
 //     console.log(a);
 
-// // 33. What will be the result of this code?
+/* ----------------------------------- 32 ----------------------------------- */
 //     let a = 1;
 //     let b = 2;
 //     let c = a + b;
 //     console.log(c);
 
-// // 34. What will be the output here?
+/* ----------------------------------- 33 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     arr.forEach(num => {
 //         console.log(num);
 //     });
 
-// // 35. What will the output of this code be?
+/* ----------------------------------- 34 ----------------------------------- */
 //     let obj = { a: 1 };
 //     delete obj.a;
 //     console.log(obj);
 
-// // 36. What will the output of this code be?
+/* ----------------------------------- 35 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let newArr = arr.map(x => x * 2);
 //     console.log(newArr);
 
-// // 37. What will this code print?
+/* ----------------------------------- 36 ----------------------------------- */
 //     let a = 3;
 //     let b = a;
 //     b = 5;
 //     console.log(a);
 
-// // 38. What will be printed here?
+/* ----------------------------------- 37 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     arr.unshift(0);
 //     console.log(arr);
 
-// // 39. What will the output be here?
+/* ----------------------------------- 38 ----------------------------------- */
 //     let str = "Hello";
 //     console.log(str.substring(1, 3));
 
-// // 40. What will be the output of this code?
+/* ----------------------------------- 39 ----------------------------------- */
 //     let obj = { a: 1 };
 //     let anotherObj = obj;
 //     anotherObj.a = 2;
 //     console.log(obj.a);
 
-// // 41. What will be printed here?
+/* ----------------------------------- 40 ----------------------------------- */
 //     let arr = [1, 2, 3, 4];
 //     arr.pop();
 //     console.log(arr);
 
-// // 42. What will this output?
+/* ----------------------------------- 41 ----------------------------------- */
 //     let a = [1, 2, 3];
 //     let b = a.slice(0, 2);
 //     console.log(b);
 
-// // 43. What will be the output of this code?
+/* ----------------------------------- 42 ----------------------------------- */
 //     let obj = { a: 1, b: 2 };
 //     let newObj = Object.freeze(obj);
 //     newObj.a = 3;
 //     console.log(obj.a);
 
-// // 44. What will this print?
+/* ----------------------------------- 43 ----------------------------------- */
 //     let foo = 10;
 //     let bar = foo;
 //     bar = 20;
 //     console.log(foo);
 
-// // 45. What will the result be here?
+/* ----------------------------------- 44 ----------------------------------- */
 //     let obj = { a: 1, b: 2 };
 //     Object.freeze(obj);
 //     obj.b = 3;
 //     console.log(obj.b);
 
-// // 46. What will be the output of this code?
+/* ----------------------------------- 45 ----------------------------------- */
 //     let str = "Hello, World!";
 //     console.log(str.slice(7, 12));
 
-// // 47. What will this code output?
+/* ----------------------------------- 46 ----------------------------------- */
 //     let arr = [5, 6, 7];
 //     let total = arr.reduce((acc, num) => acc + num, 0);
 //     console.log(total);
 
-// // 48. What will be the output here?
+/* ----------------------------------- 47 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let b = arr.reverse();
 //     console.log(arr);
 
-// // 49. What will this print?
+/* ----------------------------------- 48 ----------------------------------- */
 //     let arr = [1, 2, 3];
 //     let [a, , c] = arr;
 //     console.log(a, c);
 
-// // 50. What will be the output of this code?
+/* ----------------------------------- 49 ----------------------------------- */
 //     let arr = ['apple', 'banana', 'cherry'];
 //     console.log(arr.includes('banana'));
