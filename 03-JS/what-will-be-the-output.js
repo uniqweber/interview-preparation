@@ -26,37 +26,34 @@ console.log(x + y); // Output: 25 */
    const newArr = arr.map(num => num * 2);
    console.log(newArr); // Output: [2, 4, 6] */
 
-// // 6. What will this code output?
-//    let a = 5;
-//    let b = "5";
-//    console.log(a == b);
-//    console.log(a === b);
+/* ----------------------------------- 06 ----------------------------------- */
+/* let a = 5;
+let b = "5";
+console.log(a == b);// Output: true
+console.log(a === b);// Output: false */
 
-// // 7. What will be the output of this code?
-//    let obj = {};
-//    obj.a = 1;
-//    obj.b = 2;
-//    delete obj.a;
-//    console.log(obj);
+/* ----------------------------------- 07 ----------------------------------- */
+/* let obj = {};
+obj.a = 1;
+obj.b = 2;
+delete obj.a;
+console.log(obj);// Output: {b:2} */
 
-// // 8. What will this output?
-//    let foo = "bar";
-//    let bar = "foo";
-//    [foo, bar] = [bar, foo];
-//    console.log(foo, bar);
+/* ----------------------------------- 08 ----------------------------------- */
+/* let foo = "bar";
+let bar = "foo";
+[foo, bar] = [bar, foo];
+console.log(foo, bar);// Output: foo bar */
 
-// // 9. What will be the result of this code?
-//    console.log(0.1 + 0.2 === 0.3);
+/* ----------------------------------- 09 ----------------------------------- */
+/* let obj = {a: 1, b: 2};
+const {a, b, c = 3} = obj;
+console.log(c); // Output: 3 */
 
-// // 10. What will be the output here?
-//     let obj = { a: 1, b: 2 };
-//     const { a, b, c = 3 } = obj;
-//     console.log(c);
-
-// // 11. What will the output of this code be?
-//     let arr = [1, 2, 3];
-//     let sum = arr.reduce((acc, val) => acc + val, 0);
-//     console.log(sum);
+/* ----------------------------------- 10 ----------------------------------- */
+// let arr = [1, 2, 3];
+// let sum = arr.reduce((acc, val) => acc + val, 0);
+// console.log(sum); // Output: 6
 
 // // 12. What will the result of this code be?
 //     let arr = [1, 2, 3];
