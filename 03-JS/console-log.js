@@ -286,3 +286,47 @@
 // console.log(3 < 5 && 5 > 2);                                     // Output: true
 // console.log(0 == false && "test" == "test");                     // Output: true
 // console.log(0 == false && "false" === false);                    // Output: false
+// console.log((true + false) > 1);                                 // Output: false
+// console.log("2" - "1" - "1");                                    // Output: 0
+// console.log(!!null == !!undefined);                              // Output: true
+// console.log("10" - "4" - "2" - "1" + "5");                       // Output: 35
+// console.log((3 > 2 > 1) == false);                               // Output: true
+// console.log(0 == "0");                                           // Output: true
+// console.log(null == 0);                                          // Output: false
+// console.log([1, 2, 3] == [1, 2, 3]);                             // Output: false
+// console.log({} === {});                                          // Output: false
+// console.log(NaN == NaN);                                         // Output: false
+// console.log("5" - "2" - "1");                                    // Output: 2
+// console.log(1 + "1" + 1);                                        // Output: 111
+// console.log((true + false) === 1);
+// console.log(!+[] + [] + ![]);
+// console.log([] + 1 + 2);
+// console.log("4" - - "4");
+// console.log([1] + [1, 2, 3]);
+// console.log(3 > 2 > 1);
+// console.log("6" - 1);
+// console.log("foo" + + "bar");
+// console.log(typeof Infinity);
+// console.log(typeof null);
+// console.log(1 == "1");
+// console.log(true == 1);
+// console.log(false == 0);
+// console.log([] == ![]);
+// console.log(" "+0);
+// console.log("" - - "");
+// console.log([].length);
+// console.log("5" - 2 + "3");
+// console.log({}.toString());
+// console.log([] == 0);
+// console.log(" "+[]);
+// console.log(null + 1);
+// console.log(undefined + 1);
+// console.log("5px" - 2);
+// console.log("5px" + 2);
+// console.log(parseInt("08"));
+// console.log(parseInt("077"));
+// console.log(0.1 + 0.2);
+// console.log(0.1 + 0.2 === 0.3);
+// console.log(Math.max());
+// console.log(Math.min());
+// console.log([1, 2, 3] + [4, 5, 6]);
