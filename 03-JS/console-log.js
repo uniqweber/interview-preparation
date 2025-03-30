@@ -298,35 +298,35 @@
 // console.log(NaN == NaN);                                         // Output: false
 // console.log("5" - "2" - "1");                                    // Output: 2
 // console.log(1 + "1" + 1);                                        // Output: 111
-// console.log((true + false) === 1);
-// console.log(!+[] + [] + ![]);
-// console.log([] + 1 + 2);
-// console.log("4" - - "4");
-// console.log([1] + [1, 2, 3]);
-// console.log(3 > 2 > 1);
-// console.log("6" - 1);
-// console.log("foo" + + "bar");
-// console.log(typeof Infinity);
-// console.log(typeof null);
-// console.log(1 == "1");
-// console.log(true == 1);
-// console.log(false == 0);
-// console.log([] == ![]);
-// console.log(" "+0);
-// console.log("" - - "");
-// console.log([].length);
-// console.log("5" - 2 + "3");
-// console.log({}.toString());
-// console.log([] == 0);
-// console.log(" "+[]);
-// console.log(null + 1);
-// console.log(undefined + 1);
-// console.log("5px" - 2);
-// console.log("5px" + 2);
-// console.log(parseInt("08"));
-// console.log(parseInt("077"));
-// console.log(0.1 + 0.2);
-// console.log(0.1 + 0.2 === 0.3);
-// console.log(Math.max());
-// console.log(Math.min());
-// console.log([1, 2, 3] + [4, 5, 6]);
+// console.log((true + false) === 1);                               // Output: true
+// console.log(!+[] + [] + ![]);                                    // Output: truefalse
+// console.log([] + 1 + 2);                                         // Output: 12
+// console.log("4" - - "4");                                        // Output: 8
+// console.log([1] + [1, 2, 3]);                                    // Output: 11,2,3
+// console.log(3 > 2 > 1);                                          // Output: false
+// console.log("6" - 1);                                            // Output: 5
+// console.log("foo" + + "bar");                                    // Output: fooNaN
+// console.log(typeof Infinity);                                    // Output: number
+// console.log(typeof null);                                        // Output: object
+// console.log(1 == "1");                                           // Output: true
+// console.log(true == 1);                                          // Output: true
+// console.log(false == 0);                                         // Output: true
+// console.log([] == ![]);                                          // Output: true
+// console.log(" "+0);                                              // Output: " "0
+// console.log("" - - "");                                          // Output: 0
+// console.log([].length);                                          // Output: 0
+// console.log("5" - 2 + "3");                                      // Output: 33
+// console.log({}.toString());                                      // Output: [object object]
+// console.log([] == 0);                                            // Output: true
+// console.log(" "+[]);                                             // Output: " "
+// console.log(null + 1);                                           // Output: 1
+// console.log(undefined + 1);                                      // Output: NaN
+// console.log("5px" - 2);                                          // Output: NaN
+// console.log("5px" + 2);                                          // Output: 5px2
+// console.log(parseInt("08"));                                     // Output: 8
+// console.log(parseInt("077"));                                    // Output: 77
+// console.log(0.1 + 0.2);                                          // Output: 0.3
+// console.log(0.1 + 0.2 === 0.3);                                  // Output: false
+// console.log(Math.max());                                         // Output: -Infinity
+// console.log(Math.min());                                         // Output: Infinity
+// console.log([1, 2, 3] + [4, 5, 6]);                              // Output: 1,2,34,5,6
