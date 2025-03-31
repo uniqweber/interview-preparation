@@ -51,21 +51,21 @@ const {a, b, c = 3} = obj;
 console.log(c); // Output: 3 */
 
 /* ----------------------------------- 10 ----------------------------------- */
-// let arr = [1, 2, 3];
-// let sum = arr.reduce((acc, val) => acc + val, 0);
-// console.log(sum); // Output: 6
+/* let arr = [1, 2, 3];
+let sum = arr.reduce((acc, val) => acc + val, 0);
+console.log(sum); // Output: 6 */
 
 /* ----------------------------------- 11 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let doubled = arr.map((x) => x * 2);
-//     let total = doubled.reduce((acc, val) => acc + val, 0);
-//     console.log(total);
+/* let arr = [1, 2, 3];
+    let doubled = arr.map((x) => x * 2);
+    let total = doubled.reduce((acc, val) => acc + val, 0);
+    console.log(total); // Output: 12 */
 
 /* ----------------------------------- 12 ----------------------------------- */
-//     function a() {
-//         return { b: 1 };
-//     }
-//     console.log(a());
+    // function a() {
+    //     return { b: 1 };
+    // }
+    // console.log(a());
 
 /* ----------------------------------- 13 ----------------------------------- */
 //     let obj = { x: 1, y: 2 };
