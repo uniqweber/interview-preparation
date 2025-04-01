@@ -62,26 +62,26 @@ console.log(sum); // Output: 6 */
     console.log(total); // Output: 12 */
 
 /* ----------------------------------- 12 ----------------------------------- */
-    // function a() {
-    //     return { b: 1 };
-    // }
-    // console.log(a());
+/* function a() {
+  return {b: 1};
+}
+console.log(a()); // Output: {b:1} */
 
 /* ----------------------------------- 13 ----------------------------------- */
-//     let obj = { x: 1, y: 2 };
-//     const { x, z = 3 } = obj;
-//     console.log(z);
+/* let obj = {x: 1, y: 2};
+const {x, z = 3} = obj;
+console.log(z);  // Output: 3 */
 
 /* ----------------------------------- 14 ----------------------------------- */
-//     let nums = [1, 2, 3, 4, 5];
-//     let doubled = nums.map(num => num * 2);
-//     console.log(doubled);
+/* let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map((num) => num * 2);
+console.log(doubled); // Output: [2,4,6,8,10] */
 
 /* ------------------------------------ 15 ----------------------------------- */
-//     let result = (function() {
-//         return typeof arguments;
-//     })();
-//     console.log(result);
+let result = (function () {
+  return typeof arguments;
+})();
+console.log(result); // Object
 
 /* ----------------------------------- 16 ----------------------------------- */
 //     let obj = { a: 1 };
