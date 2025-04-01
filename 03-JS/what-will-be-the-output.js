@@ -170,38 +170,38 @@ console.log(a == b); //Output: true
 console.log(a === b); //Output: false */
 
 /* ----------------------------------- 31 ----------------------------------- */
-//     let a = [1, 2, 3];
-//     let b = a;
-//     b.push(4);
-//     console.log(a);
+/* let a = [1, 2, 3];
+let b = a;
+b.push(4);
+console.log(a); //Output: [1,2,3,4] */
 
 /* ----------------------------------- 32 ----------------------------------- */
-//     let a = 1;
-//     let b = 2;
-//     let c = a + b;
-//     console.log(c);
+/* let a = 1;
+let b = 2;
+let c = a + b;
+console.log(c); //Output: 3 */
 
 /* ----------------------------------- 33 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     arr.forEach(num => {
-//         console.log(num);
-//     });
+/* let arr = [1, 2, 3];
+arr.forEach((num) => {
+  console.log(num);
+}); //Output: 1 2 3 */
 
 /* ----------------------------------- 34 ----------------------------------- */
-//     let obj = { a: 1 };
-//     delete obj.a;
-//     console.log(obj);
+/* let obj = {a: 1};
+delete obj.a;
+console.log(obj); //Output: {} */
 
 /* ----------------------------------- 35 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let newArr = arr.map(x => x * 2);
-//     console.log(newArr);
+/* let arr = [1, 2, 3];
+    let newArr = arr.map(x => x * 2);
+    console.log(newArr); //Output: [2,4,6] */
 
 /* ----------------------------------- 36 ----------------------------------- */
-//     let a = 3;
-//     let b = a;
-//     b = 5;
-//     console.log(a);
+/* let a = 3;
+let b = a;
+b = 5;
+console.log(a); //Output: 3 */
 
 /* ----------------------------------- 37 ----------------------------------- */
 //     let arr = [1, 2, 3];
