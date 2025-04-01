@@ -224,47 +224,47 @@ arr.pop();
 console.log(arr); //Output: [1,2,3] */
 
 /* ----------------------------------- 41 ----------------------------------- */
-//     let a = [1, 2, 3];
-//     let b = a.slice(0, 2);
-//     console.log(b);
+/* let a = [1, 2, 3];
+let b = a.slice(0, 2);
+console.log(b); //Output: [1,2] */
 
 /* ----------------------------------- 42 ----------------------------------- */
-//     let obj = { a: 1, b: 2 };
-//     let newObj = Object.freeze(obj);
-//     newObj.a = 3;
-//     console.log(obj.a);
+/* let obj = {a: 1, b: 2};
+let newObj = Object.freeze(obj);
+newObj.a = 3;
+console.log(obj.a); //Output: 1 */
 
 /* ----------------------------------- 43 ----------------------------------- */
-//     let foo = 10;
-//     let bar = foo;
-//     bar = 20;
-//     console.log(foo);
+/* let foo = 10;
+let bar = foo;
+bar = 20;
+console.log(foo); //Output: 10 */
 
 /* ----------------------------------- 44 ----------------------------------- */
-//     let obj = { a: 1, b: 2 };
-//     Object.freeze(obj);
-//     obj.b = 3;
-//     console.log(obj.b);
+/* let obj = {a: 1, b: 2};
+Object.freeze(obj);
+obj.b = 3;
+console.log(obj.b); //Output: 2 */
 
 /* ----------------------------------- 45 ----------------------------------- */
-//     let str = "Hello, World!";
-//     console.log(str.slice(7, 12));
+/* let str = "Hello, World!";
+console.log(str.slice(7, 12)); //Output: World */
 
 /* ----------------------------------- 46 ----------------------------------- */
-//     let arr = [5, 6, 7];
-//     let total = arr.reduce((acc, num) => acc + num, 0);
-//     console.log(total);
+/* let arr = [5, 6, 7];
+let total = arr.reduce((acc, num) => acc + num, 0);
+console.log(total); //Output: 18 */
 
 /* ----------------------------------- 47 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let b = arr.reverse();
-//     console.log(arr);
+/* let arr = [1, 2, 3];
+let b = arr.reverse();
+console.log(arr); //Output: [3,2,1] */
 
 /* ----------------------------------- 48 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let [a, , c] = arr;
-//     console.log(a, c);
+/* let arr = [1, 2, 3];
+let [a, , c] = arr;
+console.log(a, c); //Output: 1,3 */
 
 /* ----------------------------------- 49 ----------------------------------- */
-//     let arr = ['apple', 'banana', 'cherry'];
-//     console.log(arr.includes('banana'));
+/* let arr = ["apple", "banana", "cherry"];
+console.log(arr.includes("banana")); //OUtput: true */
