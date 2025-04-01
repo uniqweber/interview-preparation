@@ -78,39 +78,39 @@ let doubled = numbers.map((num) => num * 2);
 console.log(doubled); // Output: [2,4,6,8,10] */
 
 /* ------------------------------------ 15 ----------------------------------- */
-let result = (function () {
+/* let result = (function () {
   return typeof arguments;
 })();
-console.log(result); // Object
+console.log(result); // Object */
 
 /* ----------------------------------- 16 ----------------------------------- */
-//     let obj = { a: 1 };
-//     Object.freeze(obj);
-//     obj.a = 3;
-//     console.log(obj.a);
+/* let obj = {a: 1};
+Object.freeze(obj);
+obj.a = 3;
+console.log(obj.a); //Output: 1 */
 
 /* ----------------------------------- 17 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let doubled = arr.map(num => num * 2);
-//     let total = doubled.reduce((acc, num) => acc + num, 0);
-//     console.log(total);
+/* let arr = [1, 2, 3];
+let doubled = arr.map((num) => num * 2);
+let total = doubled.reduce((acc, num) => acc + num, 0);
+console.log(total); //Output: 12 */
 
 /* ----------------------------------- 18 ----------------------------------- */
-//     let arr = ['a', 'b', 'c'];
-//     arr.splice(1, 1, 'x', 'y');
-//     console.log(arr);
+/* let arr = ["a", "b", "c"];
+arr.splice(1, 1, "x", "y");
+console.log(arr); //Output: ["a","x","y","c"] */
 
 /* ----------------------------------- 19 ----------------------------------- */
-//     let obj1 = { a: 1 };
-//     let obj2 = Object.assign({}, obj1);
-//     obj2.a = 2;
-//     console.log(obj1.a, obj2.a);
+/* let obj1 = {a: 1};
+let obj2 = Object.assign({}, obj1);
+obj2.a = 2;
+console.log(obj1.a, obj2.a); //Output: 1,2 */
 
 /* ----------------------------------- 20 ----------------------------------- */
-//     const a = [1, 2, 3];
-//     const b = [...a];
-//     b.push(4);
-//     console.log(a, b);
+/* const a = [1, 2, 3];
+const b = [...a];
+b.push(4);
+console.log(a, b); //Output: [1,2,3] [1,2,3,4] */
 
 /* ----------------------------------- 21 ----------------------------------- */
 //     let foo = { a: 1, b: 2 };
