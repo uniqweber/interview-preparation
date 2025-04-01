@@ -142,32 +142,32 @@ console.log(obj.a); //Output: 2 */
 console.log(arr.indexOf("banana")); //Output: 1 */
 
 /* ----------------------------------- 26 ------------------------------ */
-//     let obj = { a: 1 };
-//     let clone = Object.assign({}, obj);
-//     clone.a = 2;
-//     console.log(obj.a, clone.a);
+/* let obj = {a: 1};
+let clone = Object.assign({}, obj);
+clone.a = 2;
+console.log(obj.a, clone.a); //Output: 1 2 */
 
 /* ----------------------------------- 27 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let total = arr.reduce((acc, val) => acc + val, 0);
-//     console.log(total);
+/* let arr = [1, 2, 3];
+let total = arr.reduce((acc, val) => acc + val, 0);
+console.log(total); //Output: 6 */
 
 /* ----------------------------------- 28 ----------------------------------- */
-//     let obj = { a: 1 };
-//     obj.a = 2;
-//     console.log(obj.a);
+/* let obj = {a: 1};
+obj.a = 2;
+console.log(obj.a); //Output: 2 */
 
 /* ----------------------------------- 29 ----------------------------------- */
-//     let x = [1, 2, 3];
-//     let y = x.slice();
-//     y[0] = 99;
-//     console.log(x[0]);
+/* let x = [1, 2, 3];
+let y = x.slice();
+y[0] = 99;
+console.log(x[0]); //Output: 1 */
 
 /* ----------------------------------- 30 ----------------------------------- */
-//     let a = 10;
-//     let b = "10";
-//     console.log(a == b);
-//     console.log(a === b);
+/* let a = 10;
+let b = "10";
+console.log(a == b); //Output: true
+console.log(a === b); //Output: false */
 
 /* ----------------------------------- 31 ----------------------------------- */
 //     let a = [1, 2, 3];
