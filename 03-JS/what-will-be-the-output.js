@@ -204,24 +204,24 @@ b = 5;
 console.log(a); //Output: 3 */
 
 /* ----------------------------------- 37 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     arr.unshift(0);
-//     console.log(arr);
+/* let arr = [1, 2, 3];
+arr.unshift(0);
+console.log(arr); //Output: [0,1,2,3] */
 
 /* ----------------------------------- 38 ----------------------------------- */
-//     let str = "Hello";
-//     console.log(str.substring(1, 3));
+/* let str = "Hello";
+console.log(str.substring(1, 3)); //Output: el */
 
 /* ----------------------------------- 39 ----------------------------------- */
-//     let obj = { a: 1 };
-//     let anotherObj = obj;
-//     anotherObj.a = 2;
-//     console.log(obj.a);
+/* let obj = {a: 1};
+let anotherObj = obj;
+anotherObj.a = 2;
+console.log(obj.a); //Output: 2 */
 
 /* ----------------------------------- 40 ----------------------------------- */
-//     let arr = [1, 2, 3, 4];
-//     arr.pop();
-//     console.log(arr);
+/* let arr = [1, 2, 3, 4];
+arr.pop();
+console.log(arr); //Output: [1,2,3] */
 
 /* ----------------------------------- 41 ----------------------------------- */
 //     let a = [1, 2, 3];
