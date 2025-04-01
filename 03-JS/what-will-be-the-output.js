@@ -113,35 +113,35 @@ b.push(4);
 console.log(a, b); //Output: [1,2,3] [1,2,3,4] */
 
 /* ----------------------------------- 21 ----------------------------------- */
-//     let foo = { a: 1, b: 2 };
-//     let bar = foo;
-//     bar.a = 3;
-//     console.log(foo.a);
+/* let foo = {a: 1, b: 2};
+let bar = foo;
+bar.a = 3;
+console.log(foo.a); //Output: 3 */
 
 /* ----------------------------------- 22 ----------------------------------- */
-//     let obj = { a: 1 };
-//     Object.defineProperty(obj, "b", {
-//         value: 2,
-//         writable: false
-//     });
-//     obj.b = 3;
-//     console.log(obj.b);
+/* let obj = {a: 1};
+Object.defineProperty(obj, "b", {
+  value: 2,
+  writable: false,
+});
+obj.b = 3;
+console.log(obj.b); //Output: 2 */
 
 /* ----------------------------------- 23 ----------------------------------- */
-//     let arr = [1, 2, 3];
-//     let [x, y, z] = arr;
-//     console.log(x, y, z);
+/* let arr = [1, 2, 3];
+let [x, y, z] = arr;
+console.log(x, y, z); //Output: 1 2 3 */
 
 /* ----------------------------------- 24 ----------------------------------- */
-//     let obj = { a: 1 };
-//     obj.a = 2;
-//     console.log(obj.a);
+/* let obj = {a: 1};
+obj.a = 2;
+console.log(obj.a); //Output: 2 */
 
 /* ----------------------------------- 25 ----------------------------------- */
-//     const arr = ['apple', 'banana', 'cherry'];
-//     console.log(arr.indexOf('banana'));
+/* const arr = ["apple", "banana", "cherry"];
+console.log(arr.indexOf("banana")); //Output: 1 */
 
-/* ----------------------------------- 26 ----------------------------------- */
+/* ----------------------------------- 26 ------------------------------ */
 //     let obj = { a: 1 };
 //     let clone = Object.assign({}, obj);
 //     clone.a = 2;
