@@ -22,4 +22,17 @@ const checkAnagram = (strOne = "", strTwo = "") => {
   });
   return true;
 };
-console.log(checkAnagram("listen", "silent"));
+// console.log(checkAnagram("listen", "silent"));
+
+/* ------------------------------- problem 03 ------------------------------- */
+// Input: [1, 2, 3, 2, 4, 1]
+// Output: [1, 2, 3, 4]
+
+const removeDuplicateElement = (arr = []) => {
+  let result = [];
+  arr.forEach((el) => {
+    !result.includes(el) && result.push(el);
+  });
+  return result
+};
+// console.log(removeDuplicateElement([1, 2, 3, 2, 4, 1]));
