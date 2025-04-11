@@ -43,10 +43,23 @@ const removeDuplicateElement = (arr = []) => {
 
 const revertStr = (str = "") => {
   let result = "";
-  for (let i = str.length-1; i >= 0; i--) {
+  for (let i = str.length - 1; i >= 0; i--) {
     const char = str[i];
     result += char;
   }
   return result;
 };
 // console.log(revertStr("javascript"));
+
+/* ------------------------------- problem 05 ------------------------------- */
+// Input: 1234
+// Output: 10 (1+2+3+4)
+
+const sumOfDigits = (digits = 0) => {
+  let result = 0
+  digits.toString().split("").forEach(num=>{
+    result += Number(num)
+  })
+  return result
+};
+console.log(sumOfDigits(1234));
