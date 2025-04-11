@@ -33,6 +33,20 @@ const removeDuplicateElement = (arr = []) => {
   arr.forEach((el) => {
     !result.includes(el) && result.push(el);
   });
-  return result
+  return result;
 };
 // console.log(removeDuplicateElement([1, 2, 3, 2, 4, 1]));
+
+/* ------------------------------- problem 04 ------------------------------- */
+// Input: "javascript"
+// Output: "tpircsavaj"
+
+const revertStr = (str = "") => {
+  let result = "";
+  for (let i = str.length-1; i >= 0; i--) {
+    const char = str[i];
+    result += char;
+  }
+  return result;
+};
+// console.log(revertStr("javascript"));
