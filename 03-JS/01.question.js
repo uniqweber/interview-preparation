@@ -8,6 +8,18 @@ const countLetterOnString = (str) => {
       output[element] += 1;
     } else output[element] = 1;
   });
-  return output
+  return output;
 };
-console.log(countLetterOnString("hello"));
+// console.log(countLetterOnString("hello")); // Output: { h: 1, e: 1, l: 2, o: 1 }
+
+/* ------------------------------- problem 02 ------------------------------- */
+// Input: "listen", "silent"
+// Output: true
+const checkAnagram = (strOne = "", strTwo = "") => {
+  if (strOne.length !== strTwo.length) return false;
+  strOne.split("").forEach((char) => {
+    if (!strTwo.includes(char)) return false;
+  });
+  return true;
+};
+console.log(checkAnagram("listen", "silent"));
