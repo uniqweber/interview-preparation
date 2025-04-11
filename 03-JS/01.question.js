@@ -56,10 +56,37 @@ const revertStr = (str = "") => {
 // Output: 10 (1+2+3+4)
 
 const sumOfDigits = (digits = 0) => {
-  let result = 0
-  digits.toString().split("").forEach(num=>{
-    result += Number(num)
-  })
-  return result
+  let result = 0;
+  digits
+    .toString()
+    .split("")
+    .forEach((num) => {
+      result += Number(num);
+    });
+  return result;
 };
-console.log(sumOfDigits(1234));
+// console.log(sumOfDigits(1234));
+
+/* ------------------------------- problem 06 ------------------------------- */
+// Input: [10, 5, 8, 20]
+// Output: 10
+
+const findSecondLargestNumber = (arr = []) => {
+  if (arr.length < 2) return null;
+
+  let largest = -Infinity;
+  let secondLargest = -Infinity;
+
+  arr.forEach((num) => {
+    if (num > largest) {
+      secondLargest = largest;
+      largest = num;
+    } else if (num > secondLargest && num !== largest) {
+      secondLargest = num;
+    }
+  });
+
+  return secondLargest;
+};
+
+console.log(findSecondLargestNumber([10, 5, 8, 20])); // Output: 10
