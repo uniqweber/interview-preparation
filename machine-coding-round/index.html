@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/style.css" rel="stylesheet" />
   </head>
-  <body class="bg-black text-white flex items-center justify-center min-h-screen">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-gray-100 text-white flex items-center justify-center min-h-screen">
+    <!-- counter -->
+    <div class="bg-white max-w-xl w-full p-4 rounded-xl">
+      <div class="grid grid-cols-3 gap-4 font-extrabold">
+        <div class="text-4xl bg-red-100 w-full text-red-500 rounded-xl flex items-center justify-center py-8">01</div>
+        <div class="text-4xl bg-blue-100 w-full text-blue-500 rounded-xl flex items-center justify-center py-8">01</div>
+        <div class="text-4xl bg-green-100 text-green-500 w-full rounded-xl flex items-center justify-center py-8">01</div>
+        <button class="h-10 rounded-lg font-semibold uppercase  inline-flex items-center justify-center bg-orange-500">Start </button>
+        <button class="h-10 rounded-lg font-semibold uppercase  inline-flex items-center justify-center bg-indigo-500">Pause</button>
+        <button class="h-10 rounded-lg font-semibold uppercase  inline-flex items-center justify-center bg-indigo-500">Reset</button>
+      </div>
+    </div>
   </body>
 </html>
